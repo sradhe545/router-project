@@ -1,0 +1,32 @@
+.links{
+   text-decoration: none;
+   
+}
+.out{
+    height: 30px;
+    width: 800px;
+    display: flex;
+    border: solid 1px red;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon{
+    height: 30px;
+    width:120px;
+    display: flex;
+    border: solid 1px red;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    border: solid 1px red;
+    justify-content: space-around;
+    align-items: center;
+}
+.out>:nth-child(1){
+    margin-right: 20px;
+}
+.active{
+    color:teal;
+}

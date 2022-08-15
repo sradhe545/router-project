@@ -1,0 +1,32 @@
+.outer1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    width: 70%;
+    gap: 20px;
+   margin: auto;
+  
+}
+.outer{
+    border: solid 2px lightgray;
+    padding-left: 20px 20px -20px 20px;
+}
+.price{
+    display:flex;
+    
+}
+.price>p{
+    margin-right: 10px;
+}
+.sold{
+    color: rgb(196, 148, 148);
+}
+.ratings{
+    display: flex;
+    height: 15px;
+    width: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    background-color: lightgray;
+}
