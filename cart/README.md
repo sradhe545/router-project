@@ -33,4 +33,16 @@ It is the cart section of E-commerce website using Reducer
 -Total Price
 
 
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm i
+```
+```bash
+  npm start
+```
+
+
 
